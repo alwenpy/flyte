@@ -63,7 +63,7 @@ COPY docker/sandbox/kubectl docker/sandbox/cgroup-v2-hack.sh /flyteorg/bin/
 # Copy Flyte config
 COPY flyte.yaml /flyteorg/share/flyte.yaml
 
-FROM docker:20.10.14-dind-alpine3.15 AS dind
+FROM docker:20.10.16-dind-alpine3.15 AS dind
 
 # Install dependencies
 RUN apk add --no-cache bash git make tini curl jq
