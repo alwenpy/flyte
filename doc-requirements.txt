@@ -118,7 +118,7 @@ typing-extensions==4.1.1
     # via astroid
 unidecode==1.3.4
     # via sphinx-autoapi
-urllib3==1.26.9
+urllib3==1.26.18
     # via requests
 wrapt==1.14.0
     # via astroid
